@@ -7,5 +7,5 @@ int main(){
     printf("| %-14s | %6d | %6d |\n", "Bob", 78, 82);
     printf("| %-14s | %6d | %6d |\n", "Charlie", 92, 88);
     printf("+----------------+--------+--------+\n");
-    return (0);
+    return 0;
 }
