@@ -5,4 +5,5 @@ int main() {
     int hour = time / 60;
     int minute = time % 60;
     printf("%d minutes is %d hour(s) and %d minute(s)", time, hour, minute);
+    return 0;
 }

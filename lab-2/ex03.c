@@ -16,4 +16,5 @@ int main() {
     printf("Height: %.1f\n", height);
     printf("Weight: %d\n", weight);
     printf("Education: %s", edq);
+    return 0;
 }

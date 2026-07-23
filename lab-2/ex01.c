@@ -9,4 +9,5 @@ int main() {
     printf("You entered %.1f\n", num_float);
     printf("Please enter a character: "); scanf("%s", &ch);
     printf("You entered %c", ch);
+    return 0;
 }

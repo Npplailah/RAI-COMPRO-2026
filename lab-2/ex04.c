@@ -10,4 +10,5 @@ int main() {
     printf("Enter your Calculus score: "); scanf("%f", &cal);
     gpa = (compro + phy + cal) / 3.0;
     printf("Hi %s(%d)! Your GPA is %.2f", name, id, gpa);
+    return 0;
 }

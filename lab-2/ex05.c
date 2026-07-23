@@ -7,4 +7,5 @@ int main() {
     printf("Enter your height: ") ;scanf("%f", &height);
     printf("Enter you University name: "); scanf(" %[^\n]", &uni_name);
     printf("Hi! Everyone. This is %c.%s from KMITL. I am %d years old and my height is %.1f cm tall.", surname[0], name, age, height);
+    return 0;
 }

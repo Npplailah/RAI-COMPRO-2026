@@ -14,4 +14,5 @@ int main() {
     printf("Maximum: %d\n", max);
     printf("Sum: %d\n", sum);
     printf("Average: %.2f", avg);
+    return 0;
 }
