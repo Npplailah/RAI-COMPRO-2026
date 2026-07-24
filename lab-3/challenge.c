@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    printf("\n%-8s %-8s %-8s %-8s\n", "Subject", "Score", "Grade", "Grade");
+    printf("\n%-8s %-8s %-8s %-8s\n", "Subject", "Score", "Grade", "Grade")
     printf("--------------------------------\n");
     printf("%-8s %-8d %-8c %-80.2f\n", "Cal", score[0], grade_T[0], grade[0]);
     printf("%-8s %-8d %-8c %-80.2f\n", "Physics", score[1], grade_T[1], grade[1]);
