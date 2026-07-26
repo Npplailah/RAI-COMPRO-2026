@@ -31,7 +31,7 @@ int main() {
     printf("--------------------------------\n");
     printf("%-8s %-8d %-8c %-80.2f\n", "Cal", score[0], grade_T[0], grade[0]);
     printf("%-8s %-8d %-8c %-80.2f\n", "Physics", score[1], grade_T[1], grade[1]);
-    printf("%-8s %-8d %-8c %-80.2f\n\n", "compro", score[2], grade_T[2], grade[2]);
+    printf("%-8s %-8d %-8c %-80.2f\n\n", "Compro", score[2], grade_T[2], grade[2]);
     printf("GPA: %.2f\n", (grade[0] + grade[1] + grade[2]) / 3);
 
     return 0;
