@@ -1,26 +1,28 @@
 #include <stdio.h>
-
 int main() {
-    int size = 5;
-    int arr[5];
-    
+    int arr[5], n = 5;
+    int *p;
+    int temp;
+
     printf("Enter 5 integers: ");
-    for (int *p = arr; p < arr + size; p++) {
-        scanf("%d", p);
+    for (p = arr; p < arr + n; p++) {
+        if (scanf("%d", p) != 1) {
+            printf("Invalid input\n"); return 1;
+        }
     }
 
-    for (int i = 0; i < size - 1; i++) {
-        for (int *p = arr; p < arr + size - 1 - i; p++) {
-            if (*p > *(p + 1)) {
-                int temp = *p;
+    for (int i = 0; i < n - 1; i++) {
+        for (p = arr; p < arr + n - 1 - i; p++) {
+            if (*p < *(p + 1)) {
+                temp = *p;
                 *p = *(p + 1);
                 *(p + 1) = temp;
             }
         }
     }
 
-    printf("Sorted:");
-    for (int *p = arr; p < arr + size; p++) printf(" %d", *p);
+    printf("Sorted descending:");
+    for (p = arr; p < arr + n; p++) printf(" %d", *p);
     printf("\n");
 
     return 0;
